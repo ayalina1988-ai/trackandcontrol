@@ -13,7 +13,7 @@ export function Demo() {
       <Reveal className="mx-auto grid max-w-[1100px] items-center gap-10 md:grid-cols-2 md:gap-14">
         <figure className="mx-auto w-full max-w-[500px]">
           <img
-                       src="/images/tableur-colore.png.png"
+                       src="/tableur-colore.png.png"
             alt="Tableau Budget Mensuel Track & Control sur ordinateur et smartphone : revenus, dépenses, épargne et dettes avec graphiques"
             width={1600}
             height={1200}
