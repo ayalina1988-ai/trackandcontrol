@@ -12,14 +12,23 @@ export function Demo() {
     <section aria-labelledby="demo-title" className="border-y border-white/5 bg-ink-soft/40 px-4 py-12 md:py-16">
       <Reveal className="mx-auto grid max-w-[1100px] items-center gap-10 md:grid-cols-2 md:gap-14">
         <figure className="mx-auto w-full max-w-[500px]">
-          <img
-                       src="/tableur-colore.png.png"
+                    <img
+            src="/tableur-colore.png.png"
             alt="Tableau Budget Mensuel Track & Control sur ordinateur et smartphone : revenus, dépenses, épargne et dettes avec graphiques"
             width={1600}
             height={1200}
             loading="lazy"
             decoding="async"
-            className="h-auto w-full rounded-2xl ring-1 ring-white/10"
+            className="hidden h-auto w-full rounded-2xl ring-1 ring-white/10 md:block"
+          />
+          <img
+            src="/images/product-tablet.png"
+            alt="Tableau Budget Mensuel Track & Control sur tablette : revenus, dépenses, épargne et dettes avec graphiques"
+            width={1816}
+            height={1280}
+            loading="lazy"
+            decoding="async"
+            className="h-auto w-full rounded-2xl ring-1 ring-white/10 md:hidden"
           />
           <figcaption className="mt-3 text-center font-sans text-[11px] font-medium uppercase tracking-[0.1em] text-slate-400">
             Une seule page · Tout votre budget
