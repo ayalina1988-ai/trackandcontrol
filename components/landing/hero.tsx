@@ -72,7 +72,7 @@ function MobileHero() {
 
                 <figure className="overflow-hidden rounded-2xl bg-ink-soft ring-1 ring-white/10">
           <img
-            src="/images/tableur-colore.png.png"
+            src="/tableur-colore.png.png"
             alt="Le tableur Track & Control affiché sur ordinateur portable et sur smartphone"
             loading="lazy"
             decoding="async"
