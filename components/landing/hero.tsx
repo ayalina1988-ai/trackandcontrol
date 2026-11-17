@@ -70,16 +70,13 @@ function MobileHero() {
           </div>
         </div>
 
-        <figure className="relative aspect-[1210/1080] overflow-hidden rounded-2xl bg-ink-soft ring-1 ring-white/10">
-          {/* Crops hero-full.png to the laptop + phone area so the text baked into the image is not repeated */}
+                <figure className="overflow-hidden rounded-2xl bg-ink-soft ring-1 ring-white/10">
           <img
-            src="/images/hero-full.png"
+            src="/images/tableur-colore.png.png"
             alt="Le tableur Track & Control affiché sur ordinateur portable et sur smartphone"
-            width={2048}
-            height={1280}
             loading="lazy"
             decoding="async"
-            className="absolute left-[-66.12%] top-[-8.33%] h-auto w-[169.26%] max-w-none"
+            className="h-auto w-full"
           />
         </figure>
 
